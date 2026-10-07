@@ -6,10 +6,11 @@ import reportWebVitals from './reportWebVitals';
 import ComponentServiceCustomer from './components/ComponentServiceCustomer';
 import ComponentServiceSuppliers from './components/ComponentServiceSuppliers';
 import EmpleadosDepartamentos from './components/EmpleadosDepartamentos';
+import EmpleadosOficios from './components/EmpleadosOficios';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <EmpleadosDepartamentos />
+  <EmpleadosOficios />
 );
 
 // If you want to start measuring performance in your app, pass a function
